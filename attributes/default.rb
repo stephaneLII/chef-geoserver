@@ -1,3 +1,7 @@
 default['chef-geoserver']['directory']['src'] = '/opt/chef-geoserver/src'
 default['chef-geoserver']['name_geoserver'] = 'geoserver-2.5.4-war.zip'
 default['chef-geoserver']['geoserver_link'] = 'http://10.0.0.78/soft/geoserver-2.5.4-war.zip'
+default['chef-geoserver']['image_pyramid_plugin_link'] = 'http://10.0.0.78/soft/geoserver-2.5.4-pyramid-plugin.zip'
+default['chef-geoserver']['name_image_pyramid_plugin'] = 'geoserver-2.5.4-pyramid-plugin.zip'
+default['chef-geoserver']['geoserver_jceks'] = 'geoserver.jceks'
+default['chef-geoserver']['geoserver_jceks_link'] = 'http://10.0.0.78/data/tefenua/geoserver/geoserver.jceks'
